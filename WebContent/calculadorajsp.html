@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculadora JSP</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form action="resultadoCalc.jsp" method="POST">
+    <label>Informe o primeiro valor:</label>
+    <input type="text" name="num1"><br>
+    <label>Informe o segundo valor:</label>
+    <input type="text" name="num2"><br>
+    <label>Escolha a operação:</label>
+        <select name="operacao">
+            <option value="soma">Adição</option>
+            <option value="sub">Subtração</option>
+            <option value="div">Multiplicação</option>
+            <option value="mult">Divisão</option>
+        </select><br>
+        <input type="submit" value="Calcular">
+           
+    </form>
+
+</body>
+</html>
